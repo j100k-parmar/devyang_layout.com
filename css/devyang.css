@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 10Vh;
+
+}
+.nav h2{
+    
+    margin-left: 250px;
+    
+}
+.menu{
+    margin-top: -55px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding-left: 600px;
+    
+}
+.menu li{
+    padding-left: 18px;
+    font-size: 20px;
+}
+.menu li i{
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+.hero1{
+    width: 100%;
+    height: 60vh;  
+    background-image: url(../img/hero_bg-1.png);
+    background-position: bottom right;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+
+}
+.about{
+    width: 50%;
+    height: 80vh;
+    float: left;
+    
+}
+.team{
+    width: 50%;
+    height: 80vh;
+    float: left;
+}
+.hero1 img{
+    width: 70%;
+    margin-top: 80px;
+   
+
+}
+.hero1 h1{
+    width: 540px;
+    font-size: 58px;
+    padding-left: 100px;
+}
+.hero1 p{
+    width: 500px;
+    font-size: 18px;
+    padding-left: 100px;
+    color: grey;
+}
+.btn{
+    height: 51px;
+    width: 220px;
+    background-color: rgb(250, 116, 54);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.research{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(216, 210, 210);
+   
+  
+}
+.research h5{
+    
+    color: rgb(250, 116, 54);
+    font-weight:700;
+    font-size: 15px;
+    text-align: center;
+}
+.research p{
+    width: 488px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(9, 9, 51);
+    font-size: 24px;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(143 185 143);
+    position: relative;
+    top: -150px;
+    left: -72px;
+
+}
+
+.circle2{
+    position: relative;
+    top: -398px;
+    left: -123px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(218, 147, 147);
+}
+
+.circle3{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid rgb(176, 176, 228);
+    position: relative;
+    top: -755px;
+    left: -179px;
+}
+#solution{
+   margin-left: 200px;
+
+    
+}
+
+.img{
+    width: 200px;
+    height:200px;
+    float: left;
+    padding-left: 150px;
+    padding-top: 110px;
+
+}
+
+.img img{
+    width: 95px;
+}
+.img h4{
+    margin-left: -30px;
+}
+.choose{
+    width: 100%;
+    height: 500px;
+}
+.photo{
+  float: left;
+   margin-left: 150px;
+  }
+.photo img{
+    width: 420px;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 170px;
+    float: left;
+}
+.conversation{
+    float: left;
+    margin-left: 150px;
+}
+.conversation h5{
+    padding-left: 100px;
+    color: rgb(250, 116, 54);
+    font-weight:700;
+    font-size: 15px;
+}
+.conversation p{
+    width: 500px;
+    font-weight: 600;
+    color: rgb(9, 9, 51);
+    font-size: 34px;
+}
+
+
+.yellow{
+    width: 420px;
+    height: 8px;
+    background-color: rgb(250, 116, 54);
+    
+}
+
+.blue{
+    width: 400px;
+    height: 8px;
+    background-color:#007cba;;
+    
+}
+.customers{
+      margin-left: 20px;  
+}
+.green{
+    width: 313px;
+    height: 8px;
+    background-color: #3CD0B9;
+    }
+.main{
+    width: 460px;
+    height: 10px;
+    background-color: rgb(235, 230, 230);
+    
+}
+.number{
+    
+    color: rgb(250, 116, 54);
+    font-size: 20px;
+    float: left;
+    margin-left: 35px;
+    padding-left: 120px;
+    
+}
+.ratio{
+    width: 100%;
+height: 200px;
+margin-top: 100px;
+/* margin-left: 20px; */
+/* padding-left: 20px; */
+
+}
+.font{
+   /* text-align: center; */
+    color: rgb(104, 101, 101);
+    font-weight: 600;
+    /* margin-left:-50px; */
+}
+.solution{
+    width: 100%;
+    height: 110vh;
+    background-color:rgb(205, 205, 212);
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(250, 116, 54);
+    border-radius: 50%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 270px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.icons i{
+    font-size: 60px;
+    color: rgb(250, 116, 54);
+    
+}
+.solution h5{
+    
+    color: rgb(250, 116, 54);
+    font-weight:700;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.solution p{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    font-weight: 600;
+    color: rgb(9, 9, 51);
+    font-size: 34px;
+}
+.row1,.row2{
+    width: 100%;
+    height: 200px;
+    /* padding-left: 30px; */
+}
+.label{
+    color:rgb(9, 9, 51);;
+    margin-top: 31px;
+    font-size: 18px;
+    margin-left: -9px;
+    font-weight: 600;
+}
+.testimonials{
+    
+    width: 100%;
+    height: 80vh;
+
+}
+.testimonials h5{
+    text-align: center;
+    color: rgb(250, 116, 54);
+    font-weight:700;
+    font-size: 15px;
+}
+.testimonials p{
+    margin: auto;
+    width: 600px;
+    font-weight: 600;
+    color: rgb(9, 9, 51);
+    font-size: 30px;
+    text-align: center;
+}
+.testimonials i{
+    margin-left: 740px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(250, 116, 54);
+}
+.testimonials{
+    
+    width: 100%;
+    height: 80vh;
+
+}
+.amit{
+    font-style: italic;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.photo2 img{
+    width: 85px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 615px;
+    margin-top: 16px;
+    float: left;
+}
+.name{
+    float: left;
+    color: rgb(250, 116, 54);
+    margin-top: 45px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.blog{
+         width: 100%;
+        height: 50vh;
+        background-image: url(https://devyangpatel.com/wp-content/uploads/2020/01/blog_bg-1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+        }
+.blog h5{
+    text-align: center;
+    color: rgb(250, 116, 54);
+    font-weight:700;
+    font-size: 15px;
+    padding-top: 60px;
+}      
+.blog p{
+    margin: auto;
+    width: 600px;
+    font-weight: 600;
+    color: rgb(9, 9, 51);
+    font-size: 30px;
+    text-align: center;
+}
+.link1{
+    float: left;
+    padding-left: 180px;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.link1 a{
+    text-decoration: none;
+    color: black;
+}
+.date1{
+    color: gray;
+    
+    
+}
+
+.service{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/01/map-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+}
+.service p{
+margin: auto;
+width: 450px;
+font-weight: 600;
+color: rgb(9, 9, 51);
+font-size: 30px;
+text-align: center;
+padding-top: 100px;
+}
+.contact{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(233, 231, 231);
+
+
+}
+.thnx{
+     width: 30%;
+     height: 60vh;
+     float: left;
+    
+}
+.text{
+    padding-left: 250px;
+    padding-top: 30px;
+}
+.line{
+    height: 20px;
+    width: 5px;
+    background-color: rgb(250, 116, 54); ;
+    float: left;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.sitemap{
+    margin: auto;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.sitemap h3{
+    padding-left: 40px;
+    letter-spacing: 2px;
+}
+.menu2 ul li{
+    list-style: none;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.menu2 ul li i{
+    padding-right: 10px;
+}
+
+.location{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    float:left;
+    margin-top: 30px;
+}
+.location i{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.address{
+    
+    margin-left: 85px;
+}
+.address h4{
+    padding-top: 26px;
+}
+
+.address h5{
+    margin-top: -15px;
+}
+.copyright{
+    height:35px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.copyright .menu{
+    margin-top:-37px;
+}
+.copyright li{
+    margin-left: 35px;
+    font-size: 15px;
+    padding-left: 2px;
+}
